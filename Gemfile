@@ -3,8 +3,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use postgres as the database
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -29,7 +28,7 @@ gem 'turbolinks'
 
 #heroku gems
 group :development, :test do
-	gem 'sqlite3'
+	gem 'postgres'
 end
 
 group :production do
