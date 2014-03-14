@@ -28,7 +28,7 @@ gem 'turbolinks'
 
 #heroku gems
 group :development, :test do
-	gem 'postgres'
+	gem 'pg'
 end
 
 group :production do

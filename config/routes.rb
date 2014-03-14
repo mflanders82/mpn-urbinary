@@ -1,7 +1,9 @@
 MpnUrbinary::Application.routes.draw do
   root "pages#home"
   get "dash" => "pages#dash"
-
+  get "reports" => "pages#reports"
+  get "data_sets" => "pages#data_sets"
+  get "calendar" => "pages#calendar"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -4,4 +4,13 @@ class PagesController < ApplicationController
   
   def dash
   end
+
+  def reports
+  end
+
+  def data_sets
+  end
+
+  def calendar
+  end
 end
