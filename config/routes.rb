@@ -1,4 +1,5 @@
 MpnUrbinary::Application.routes.draw do
+  devise_for :users
   root "pages#home"
   get "dash" => "pages#dash"
   get "reports" => "pages#reports"
