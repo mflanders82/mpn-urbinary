@@ -1,9 +1,10 @@
 <head>
-    <style>
-    body {padding-top:0px;}
-    </style>
+	<style>
+	body {padding-top:0px;}
+	</style>
 </head>
 <body>
+
 <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -26,15 +27,7 @@
 </ul>
 </nav>
 
-<div class="jumbotron center">
-    <h1> Welcome to the MPN Promise Portal</h1>
-    <% if user_signed_in? %>
-        #do something
-    <% else %>
-        <p>
-            <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
-            <%= link_to "Sign up", new_user_registration_path, class: "btn btn-default btn-lg" %>
-    </p>
-<% end %>
-</div>
+<h1>About the Partner Portal</h1>
+<p>Partner portal gives people the ability to manage projects and communicate easier while using dropbox. 
+</p>
 </body>

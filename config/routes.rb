@@ -2,6 +2,7 @@ MpnUrbinary::Application.routes.draw do
   devise_for :users
   root "pages#home"
   get "dash" => "pages#dash"
+  get "about" => "pages#about"
   get "reports" => "pages#reports"
   get "data_sets" => "pages#data_sets"
   get "calendar" => "pages#calendar"
